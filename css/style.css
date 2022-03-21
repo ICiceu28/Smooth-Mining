@@ -250,47 +250,47 @@ loader
 header 
 ---------------------------------------------------------------------*/
 header {
-     position: relative;
-     top: 0;
-     height: 20%;
-     background: black;
-     width: 100%;
-     padding: 22px 30px;
-     z-index: 9;
+  position: relative;
+  top: 0;
+  height: 20%;
+  background: black;
+  width: 100%;
+  padding: 22px 30px;
+  z-index: 9;
 }
 
-.left{
-     float:left;
-     width: 230px;
+.left {
+  float: left;
+  width: 230px;
 }
 
-   .right{
-       float:right;
-   }
+.right {
+  float: right;
+}
 
 .about {
-     text-align: center;
-     font-weight: bold;
+  text-align: center;
+  font-weight: bold;
 }
 .about h1 {
-     font-size:60px;
-     text-align: center;
+  font-size: 60px;
+  text-align: center;
 }
 
 .logoab {
-     width: 570px;
-     height: 230px;
-     border-radius: 10%;
-     overflow: hidden;
-     margin-left: auto;
-     margin-right: auto;
+  width: 570px;
+  height: 230px;
+  border-radius: 10%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.logo{
-     width: 140px;
-     height: 50px;
-     border-radius: 10%;
-     overflow: hidden;
+.logo {
+  width: 140px;
+  height: 50px;
+  border-radius: 10%;
+  overflow: hidden;
 }
 
 .logo a {
@@ -299,57 +299,57 @@ header {
   font-weight: bold;
 }
 
-.login{
-     text-align: center;
+.login {
+  text-align: center;
 }
 .btn_login {
-     display: inline-block;
-     background: transparent;
-     color: #fff;
-     max-width: 225px;
-     height: 67px;
-     line-height: 67px;
-     width: 100%;
-     font-size: 18px;
-     text-align: center;
-     font-weight: 500;
-     transition: ease-in all 0.5s;
-     border: #ffffff solid 2px;
-     margin-right: 2rem;
+  display: inline-block;
+  background: transparent;
+  color: #fff;
+  max-width: 225px;
+  height: 67px;
+  line-height: 67px;
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+  transition: ease-in all 0.5s;
+  border: #ffffff solid 2px;
+  margin-right: 2rem;
 }
 
 .btn_login:hover {
-     background: green;
-     color: #fff;
-     transition: ease-in all 0.5s;
-     border: green solid 2px;
+  background: green;
+  color: #fff;
+  transition: ease-in all 0.5s;
+  border: green solid 2px;
 }
 
 .btn_register {
-     display: inline-block;
-     background: transparent;
-     color: #fff;
-     max-width: 225px;
-     height: 67px;
-     line-height: 67px;
-     width: 100%;
-     font-size: 18px;
-     text-align: center;
-     font-weight: 500;
-     transition: ease-in all 0.5s;
-     border: #ffffff solid 2px;
+  display: inline-block;
+  background: transparent;
+  color: #fff;
+  max-width: 225px;
+  height: 67px;
+  line-height: 67px;
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+  transition: ease-in all 0.5s;
+  border: #ffffff solid 2px;
 }
 
 .btn_register:hover {
-     background: green;
-     color: #fff;
-     transition: ease-in all 0.5s;
-     border: green solid 2px;
+  background: green;
+  color: #fff;
+  transition: ease-in all 0.5s;
+  border: green solid 2px;
 }
 
 .social_icon {
-     display: flex;
-     justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 ul.social_icon {
@@ -384,7 +384,6 @@ ul.social_icon li a:hover {
 /*--------------------------------------------------------------------- 
 menu section
 ---------------------------------------------------------------------*/
-
 
 .sidepanel {
   width: 0;
@@ -510,7 +509,7 @@ menu section
 
 .wallet_box {
   position: relative;
-  background: #fff;
+  background: #10be22;
   height: 24rem;
   /* width: 13rem; */
   /* margin-bottom: 30px; */
@@ -550,7 +549,7 @@ menu section
 }
 
 #wa_hover:hover.wallet_box h3 {
-  color: #face34;
+  color: #fff;
   transition: ease-in all 0.5s;
 }
 
@@ -575,10 +574,10 @@ menu section
   margin: 0.3rem;
 }
 .btn_recharge:hover {
-  background: #face34;
-  color: #fff;
+  background: #000;
+  color: #10be22;
   transition: ease-in all 0.5s;
-  border: #face34 solid 2px;
+  border: #000 solid 2px;
 }
 
 /** end wallet **/
@@ -658,7 +657,7 @@ menu section
 }
 
 .img_responsive {
-     max-width: 72%;
+  max-width: 72%;
 }
 
 /** graf **/
