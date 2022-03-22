@@ -20,8 +20,6 @@ import Fonts
 basic 
 ---------------------------------------------------------------------*/
 
-
-
 body {
   color: #666666;
   font-size: 14px;
@@ -939,7 +937,6 @@ menu section
 
 /** footer **/
 
-
 .sponsor {
   margin-top: 10rem;
   text-align: center;
@@ -1062,169 +1059,181 @@ menu section
   margin-top: 90px;
 }
 
-
-
 .USDT {
-    margin-top: 2rem;
-    text-align: center;
-    font-weight: bold;
-
+  margin-top: 2rem;
+  text-align: center;
+  font-weight: bold;
 }
 
 .topup {
-    display: flex;
-    justify-content: center;
-    margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
 }
 
 .topupform {
-    margin-top: 4rem;
-    display: flex;
-    align-items: center;
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
 }
 
 .topupinput {
-    border-radius: 10px 10px;
-    border: 3px solid green;
-    justify-content:center;
-    align-items: center;
+  border-radius: 10px 10px;
+  border: 3px solid green;
+  justify-content: center;
+  align-items: center;
 }
 
 .topupbuttons {
-    margin-left: 70px;
-    margin-top: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin-left: 70px;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .topupbuttons2 {
-    margin-left: 70px;
-    margin-top: 3px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin-left: 70px;
+  margin-top: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn {
-    margin: 10px;
-    text-align: center;
-    width: 70px;
-    height: 40px;
-    border: 3px solid green;
-    border-radius: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
+  margin: 10px;
+  text-align: center;
+  width: 70px;
+  height: 40px;
+  border: 3px solid green;
+  border-radius: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
 }
 
 .receiversadress {
-    margin-left: 70px;
-    margin-top: 1rem;
-    text-align: center;
-    align-items: left;
-    justify-content: left;
-    border: #10be22 solid 1px;
-    width: 658px;
+  margin-left: 70px;
+  margin-top: 1rem;
+  text-align: center;
+  align-items: left;
+  justify-content: left;
+  border: #10be22 solid 1px;
+  /* width: 100%; */
 }
 
 .copybtn {
-    width: 100px;
-    height: 40px;
-    margin: 10px;
-    border-radius: 10px;
-    border: 3px solid green;
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 3px solid green;
 }
 
 .textred {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .topupinput2 {
-    border-radius: 10px 10px;
-    border: 3px solid green;
+  border-radius: 10px 10px;
+  border: 3px solid green;
 }
 
 .transaction {
-    align-items: right;
-    margin-top:1rem;
-    text-align: center;
-    justify-content:right;
-    border: #10be22 solid 1px;
-    margin-right: 70px;
-    align-items: right;
-    width: 658px;
+  align-items: right;
+  margin-top: 1rem;
+  text-align: center;
+  justify-content: right;
+  border: #10be22 solid 1px;
+  margin-right: 70px;
+  align-items: right;
+  width: 658px;
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
 }
 
 .uploadform {
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    margin-left: 50%;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 50%; */
 }
 
-.form{
-margin-left: 30%;
-margin-right: 30%;
-margin-top:1rem;
-position: relative;
-justify-content:center;
-align-items:center;
-width: 40%;
-height: 200px;
-border: 3px dashed green;
-border-radius: 10px;
-
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 1rem;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  /* width: 40%; */
+  height: 200px;
+  border: 3px dashed green;
+  border-radius: 10px;
 }
-.form div{
-width: 100%;
-height: 100%;
-text-align: center;
-line-height: 170px;
-color: green;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-position: absolute;
-top: 10%;
-z-index: -1;
+.form div {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 170px;
+  color: green;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: absolute;
+  top: 10%;
+  z-index: -1;
 }
-.form input{
-position: relative;
-margin: 0;
-padding: 0;
-width: 100%;
-height: 100%;
-outline: none;
-opacity: 0;
+.form input {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
 }
-.form button {
-    width: 100px;
-    border-radius: 10px;
-    padding: 10px 20px;
-    background: green;
-    outline: none;
-    border: none;
-    color: white;
-    font-size: 16px;
+.center_btn_confirm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form .btn_browse {
+  width: 100px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background: green;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
+.btn_confirm {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: red;
 }
 div img {
-    position: relative;
-    left: -10px;
+  position: relative;
+  left: -10px;
 }
 #fileName::before {
-    content: 'File Name:';
+  content: "File Name:";
 }
 #fileName {
-    position: relative;
-    top: 10px;
+  position: relative;
+  top: 10px;
 }
 
 .confirmdiv {
-        display: flex;
-        justify-content: center;
-        margin-left: 50%;
+  display: flex;
+  justify-content: center;
+  margin-left: 50%;
 }
