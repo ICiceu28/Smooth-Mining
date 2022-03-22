@@ -517,10 +517,11 @@ menu section
   padding: 25px 15px 50px 15px;
 }
 .wallet_box button {
+
   display: block;
   position: absolute;
   bottom: 10px;
-  margin: auto;
+  margin: 7px;
 }
 .wallet_box h3 {
   color: #0c0b0b;
@@ -557,7 +558,6 @@ menu section
   height: 60px;
   line-height: 60px;
   width: 86%;
-  /* font-size: 18px; */
   text-align: center;
   font-weight: 500;
   transition: ease-in all 0.5s;
