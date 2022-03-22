@@ -1201,7 +1201,9 @@ menu section
 .center_btn_confirm {
   display: flex;
   justify-content: center;
-  align-items: center;
+}
+.center_btn_confirm .btn_confirm {
+  text-align: center;
 }
 .form .btn_browse {
   width: 100px;
