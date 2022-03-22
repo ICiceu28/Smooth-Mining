@@ -513,7 +513,7 @@ menu section
   background: #10be22;
   height: 22rem;
   /* width: 13rem; */
-  /* margin-bottom: 30px; */
+  margin-bottom: 30px;
   transition: ease-in all 0.5s;
   padding: 25px 15px 50px 15px;
 }
@@ -893,6 +893,51 @@ menu section
 }
 
 /** end contact section **/
+
+/** Deposit-page **/
+.upload {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.uploadprooof {
+}
+.btn_choosefile,
+.btn_submit {
+  display: inline-block;
+  background: transparent;
+  color: #fff;
+  max-width: 225px;
+  height: 67px;
+  line-height: 67px;
+  /* width: 100%; */
+  text-align: center;
+  font-weight: 500;
+  transition: ease-in all 0.5s;
+  border: #ffffff solid 2px;
+  margin: 2rem;
+  cursor: pointer;
+}
+
+/* .btn_choosefile:hover{
+  background: green;
+  color: #fff;
+  transition: ease-in all 0.5s;
+  border: green solid 2px;
+} */
+.btn_submit:hover {
+  background: green;
+  color: #fff;
+  transition: ease-in all 0.5s;
+  border: green solid 2px;
+}
+/** End of deposit page **/
 
 /** footer **/
 

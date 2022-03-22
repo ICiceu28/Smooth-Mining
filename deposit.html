@@ -1,223 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <!-- basic -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- mobile metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-    <!-- site metas -->
-    <title>bitcypo</title>
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- style css -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- responsive-->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- awesome fontfamily -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-</head>
-<!-- body -->
-
-<body class="main-layout">
-    <!-- loader  -->
-    <div class="loader_bg">
-        <div class="loader"><img src="images/loading.gif" alt="" /></div>
-    </div>
-    <!-- end loader -->
-    <div id="mySidepanel" class="sidepanel">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a class="active" href="searvices.html">Searvices</a>
-        <a href="testimonial.html">Testimonial</a>
-        <a href="works.html">Works</a>
-        <a href="contact.html">Contact</a>
-    </div>
+    <head>
+        <link rel="icon" type="image/x-icon" href="/images/logo.png">
+        <!-- basic -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- mobile metas -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+        <!-- site metas -->
+        <title>Smooth Mining</title>
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <!-- bootstrap css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- style css -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- responsive-->
+        <link rel="stylesheet" href="css/responsive.css">
+        <!-- awesome fontfamily -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+          <script src="https://kit.fontawesome.com/db23182dda.js" crossorigin="anonymous"></script>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
     <!-- header -->
     <header>
-        <!-- header inner -->
-        <div class="head-top">
-            <div class="container-fluid">
-                <div class="row d_flex">
-                    <div class="col-sm-3">
-                        <div class="logo">
-                            <a href="index.html">BitCYPO</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-5">
-                        <ul class="social_icon text_align_right d_none">
-                            <li> <a href="Javascript:void(0)"><i class="fa fa-facebook-f"></i></a></li>
-                            <li> <a href="Javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
-                            <li> <a href="Javascript:void(0)"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li> <a href="Javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                            <li> <a href="Javascript:void(0)"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-4">
-                        <ul class="email text_align_right">
-                            <li class="d_none"><a href="Javascript:void(0)"><i class="fa fa-user" aria-hidden="true"></i></a></li>
-                            <li class="d_none"> <a href="Javascript:void(0)"><i class="fa fa-search" style="cursor: pointer;" aria-hidden="true"></i></a> </li>
-                            <li>
-                                <button class="openbtn" onclick="openNav()"><img src="images/menu_btn.png"></button>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+        <div class="Customer">
+            <a href="/index.html"><div class="left"><img id="logo" src="/img/logo.png"></div></div></a>
+            <div class="right"><a href="https://chatwith.io/s/smooth-mining" target="_blank" style="display: table; font-family: sans-serif; text-decoration: none; margin: 1em auto; color: #fff; font-size: 0.9em; padding: 1em 2em 1em 3.5em; border-radius: 2em; font-weight: bold; background: #25d366 url('https://tochat.be/click-to-chat-directory/css/whatsapp.svg') no-repeat 1.5em center; background-size: 1.6em;">Customer Service</a></div>
         </div>
+        <!-- header inner -->
     </header>
-    <!-- end header -->
+    <div class="upload">
+        <div>
+        <p>Click on the "Choose File" button to upload proof:</p>
+            <form action="/action_page.php" >
+                <input type="file" id="myFile" name="filename" class="btn_choosefile">
+                <input type="submit" class="btn_submit">
+            </form>
+        </div>
+        </div>
 
-    <!-- wallet -->
-    <div class="wallet">
+        <!-- <div class="login">
+           <a href="/login page/login.html" target="_blank"><button class="btn_login">LOGIN</button></a>  
+            <a href="/register page/register.html" target="_blank"><button class="btn_register">REGISTER</button></a>
+        </div> -->
+    <!-- end header -->
+    <!-- start slider section -->
+    <!-- <div id="top_section" class=" banner_main">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="titlepage text_align_center">
-                        <h2>Our Searvice</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-sm-6">
-                    <div id="wa_hover" class="wallet_box text_align_center">
-                        <i><img src="images/wa1.svg" alt="#"/></i>
-                        <h3>ONLINE WALLET</h3>
-                        <p>It is a long established fact that a reader will be distracted by </p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div id="wa_hover" class="wallet_box text_align_center">
-                        <i><img src="images/wa2.svg" alt="#"/></i>
-                        <h3>SEND COINS</h3>
-                        <p>It is a long established fact that a reader will be distracted by </p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div id="wa_hover" class="wallet_box text_align_center">
-                        <i><img src="images/wa3.svg" alt="#"/></i>
-                        <h3>MOBILE APP </h3>
-                        <p>It is a long established fact that a reader will be distracted by </p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div id="wa_hover" class="wallet_box text_align_center">
-                        <i><img src="images/wa4.svg" alt="#"/></i>
-                        <h3>COIN MINING</h3>
-                        <p>It is a long established fact that a reader will be distracted by </p>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="container-fluid">
+                                    <div class="carousel-caption relative">
+                                        <div class="row d_flex">
+                                            <div class="col-md-6">
+                                                <div class="con_img">
+                                                    <figure><img class="img_responsive" src="images/top_img.png" alt="#" /></figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="bluid">
+                                                    <h1>You will have the investments in your account in maximum 6 hours<br></h1>
+                                                    <p>Withdrawals will be credited to your binance account within 12 hours of your withdrawal request
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="container-fluid">
+                                    <div class="carousel-caption relative">
+                                        <div class="row d_flex">
+                                            <div class="col-md-6">
+                                                <div class="con_img">
+                                                    <figure><img class="img_responsive" src="images/slide1.jpg" alt="#" /></figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="bluid">
+                                                    <h1>Team Investments<br> <br></h1>
+                                                    <p>For each new member of the team, you will receive 3.88% of his investment. If your team reaches an investment of $ 5,000 or more, you will receive 10% of that amount.<br><br><br><br></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="container-fluid">
+                                    <div class="carousel-caption relative">
+                                        <div class="row d_flex">
+                                            <div class="col-md-6">
+                                                <div class="con_img">
+                                                    <figure><img class="img_responsive" src="images/slide2.jpg" alt="#" /></figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="bluid">
+                                                    <h1>Withdrawals Fee 7%<br>(32% over 5000$)</h1>
+                                                    <p>Both the investment and the withdrawal will be made through Usdt Trc20<br><br><br></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- end wallet -->
-    <!-- footer -->
-    <footer>
-        <div class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <a class="logo_bottom" href="index.html">BitCYPO</a>
+    <!-- end slider section -->
+    <!-- wallet -->
+    <!-- <div class="wallet">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2 col-sm-4">
+                    <div id="wa_hover" class="wallet_box text_align_center">
+                        <i class="fa-solid fa-piggy-bank"></i>
+                        <i class="fa-piggy-bank"></i>
+                        <i class="fa fa-bomb"></i> -->
+                        <!-- <h3>BALANCE</h3>
+                        <i><img src="images/balance.png" alt="#" class="img6"/></i>
+                        <p> </p>
+                        <button class="btn_recharge">YOUR SUM: $500</button>
                     </div>
-                    <div class="col-md-3 col-sm-6" ">
-                  <div class="Informa conta ">
-                     <h3>Contact Us</h3>
-                     <ul>
-                        <li> <a href="Javascript:void(0) "> <i class="fa fa-map-marker " aria-hidden="true "></i> Location
-                           </a>
-                        </li>
-                        <li> <a href="Javascript:void(0) "><i class="fa fa-phone " aria-hidden="true "></i> Call +01 1234567890
-                           </a>
-                        </li>
-                        <li> <a href="Javascript:void(0) "> <i class="fa fa-envelope " aria-hidden="true "></i> demo@gmail.com
-                           </a>
-                        </li>
-                     </ul>
-                     <ul>
-                        <li>Readable content of                              
-                        </li>
-                        <li>a page when looking                           
-                        </li>
-                        <li>at its layoutreadable                          
-                        </li>
-                        <li>content of a page                             
-                        </li>
-                        <li>when looking at its                         
-                        </li>
-                        <li>layout                          
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="col-md-3 col-sm-6 "">
-                        <div class="Informa helpful">
-                            <h3>Useful Link</h3>
-                            <ul>
-                                <li>Readable content of
-                                </li>
-                                <li>a page when looking
-                                </li>
-                                <li>at its layoutreadable
-                                </li>
-                                <li>content of a page
-                                </li>
-                                <li>when looking at its
-                                </li>
-                                <li>layout
-                                </li>
-                            </ul>
+                </div>
+                <div class="col-lg-2 col-sm-4">
+                    <div id="wa_hover" class="wallet_box text_align_center">
+                        <h3>RECHARGE</h3>
+                        <i><img src="images/wallet.png" alt="#" class="img6"/></i>
+                        <p>It is a long established fact that a reader will be distracted by </p>
+                        <a href="/"><button class="btn_recharge">RECHARGE</button></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-4">
+                    <div id="wa_hover" class="wallet_box text_align_center">
+                        <h3> ACTIVE DEPOSIT</h3>
+                        <i><img src="images/piggybank.png" alt="#" class="img6"/></i>
+                        <p>It is a long established fact that a reader will be distracted by </p> -->
+                        <!-- <a href="/"><button class="btn_recharge">DEPOSIT</button></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-4">
+                    <div id="wa_hover" class="wallet_box text_align_center">
+                        <h3>WITHDRAW</h3>
+                        <i><img src="images/dollar.png" alt="#" class="img6"/></i>
+                        <a href="/"><button class="btn_recharge">7% FEE</button></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-4">
+                    <div id="wa_hover" class="wallet_box text_align_center">
+                        <h3>FROZEN</h3>
+                        <i><img src="images/ice-cube.png" alt="#" class="img6"/></i>
+                        <a href="/"><button class="btn_recharge">frozen</button></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-4">
+                    <div id="wa_hover" class="wallet_box text_align_center">
+                        <h3>TEAM RAPORT + INVITE FRIENDS</h3>
+                        <i><img src="images/team.png" alt="#" class="img6"/></i>
+                        <a href="/"><button class="btn_recharge">INVITE</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- end wallet -->
+    <!-- end wallet -->
+    <!-- about -->
+    <!-- <div id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="about_border">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="titlepage text_align_left">
+                                    <h2>About Us</h2>
+                                </div>
+                                <div class="about_text">
+                                    <p>It is a long established fact that a reader will be distracted bIt is a long established fact that a reader will be distracted by y It is a long established fact that a reader will be distracted by It is a long established fact that a reader will be distracted by </p>
+                                    <a class="read_more" href="about.html">Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="about_img">
+                                    <figure><img class="img_responsive" src="images/about2.png" alt="#" /></figure>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6" ">
-                  <div class="Informa ">
-                     <h3>Offices</h3>
-                     <ul>
-                        <li>Readable content of                              
-                        </li>
-                        <li>a page when looking                           
-                        </li>
-                        <li>at its layoutreadable                          
-                        </li>
-                        <li>content of a page                             
-                        </li>
-                        <li>when looking at its                         
-                        </li>
-                        <li>layout                          
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="col-md-3 col-sm-6 ">
-                  <div class="Informa ">
-                     <h3>Newsletter</h3>
-                     <form class="newslatter_form ">
-                        <input class="ente " placeholder="Enter your email " type="text " name="Enter your email ">
-                        <button class="subs_btn ">Subscribe</button>
-                     </form>
-                  </div>
-               </div>
+                </div>
             </div>
+        </div>
+    </div> -->
+    <!-- end about -->
+
+        <div class="sponsor"></div>
+
+    <!-- end contact -->
+    <!-- footer -->
+    <footer>
             <div class="copyright text_align_center ">
                <div class="container ">
                   <div class="row ">
                      <div class="col-md-12 ">
-                        <p>© 2020 All Rights Reserved. Design by   <a href="https://html.design/ "> Free Html Template</a></p>
+                        <p>© 2022 All Rights Reserved. Smooth Mining</p>
                      </div>
                   </div>
                </div>
             </div>
          </div>
+      </div>
       </footer>
-      <a href=""> <img src=""/> </a>
       <!-- end footer -->
       <!-- Javascript files-->
       <script src="js/jquery.min.js "></script>
