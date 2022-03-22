@@ -20,8 +20,6 @@ import Fonts
 basic 
 ---------------------------------------------------------------------*/
 
-
-
 body {
   color: #666666;
   font-size: 14px;
@@ -509,6 +507,7 @@ menu section
 }
 
 .wallet_box {
+  /** was relateive */
   position: relative;
   background: #10be22;
   height: 22rem;
@@ -895,12 +894,20 @@ menu section
 /** end contact section **/
 
 /** Deposit-page **/
+.wallet_box h4,
+h6 {
+  color: #000;
+}
+#wa_hover:hover.wallet_box h4 {
+  color: #fff;
+  transition: ease-in all 0.5s;
+}
 .upload {
   display: grid;
   text-align: center;
   justify-content: center;
   align-items: center;
-  background-color: #000;
+  background-color: transparent;
   background-position: center;
   background-size: cover;
   height: 100vh;
