@@ -20,6 +20,8 @@ import Fonts
 basic 
 ---------------------------------------------------------------------*/
 
+
+
 body {
   color: #666666;
   font-size: 14px;
@@ -27,9 +29,9 @@ body {
   line-height: 1.80857;
   font-weight: normal;
   background-color: black;
-  background-size: 100% 100%;
-  background-position: center;
+  background-size: ;
   background-repeat: repeat;
+  background-image: url(/images/pattern.png);
 }
 
 a {
@@ -253,7 +255,7 @@ header {
   position: relative;
   top: 0;
   height: 20%;
-  background: black;
+  background: transparent;
   width: 100%;
   padding: 22px 30px;
   z-index: 9;
@@ -504,22 +506,23 @@ menu section
 /** wallet **/
 
 .wallet {
-  padding: 113px 30px 0 30px;
+  padding: 113px 20px 0 20px;
 }
 
 .wallet_box {
   position: relative;
   background: #10be22;
-  height: 24rem;
+  height: 22rem;
   /* width: 13rem; */
   /* margin-bottom: 30px; */
   transition: ease-in all 0.5s;
   padding: 25px 15px 50px 15px;
 }
 .wallet_box button {
+  display: block;
   position: absolute;
-  bottom: 0;
-  left: 3px;
+  bottom: 10px;
+  margin: auto;
 }
 .wallet_box h3 {
   color: #0c0b0b;
@@ -539,6 +542,7 @@ menu section
 }
 
 #wa_hover:hover.wallet_box {
+  
   /* background: #face34;
   transition: ease-in all 0.5s; */
 }
@@ -562,10 +566,10 @@ menu section
   display: inline-block;
   background: transparent;
   color: #000;
-  max-width: 225px;
+  max-width: 100%;
   height: 60px;
   line-height: 60px;
-  width: 90%;
+  width: 86%;
   /* font-size: 18px; */
   text-align: center;
   font-weight: 500;
