@@ -1198,12 +1198,27 @@ menu section
   outline: none;
   opacity: 0;
 }
-.center_btn_confirm {
+.center_btn {
   display: flex;
   justify-content: center;
-}
-.center_btn_confirm .btn_confirm {
+  align-items: center;
   text-align: center;
+  width: 100%;
+}
+.btn_confirm {
+  text-align: center;
+  margin: 1rem;
+  width: 100px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background: white;
+  outline: 4px solid #10be22;
+  border: none;
+  color: black;
+  font-size: 16px;
+}
+.btn_confirm:hover {
+  background-color: #10be22;
 }
 .form .btn_browse {
   width: 100px;
@@ -1215,13 +1230,7 @@ menu section
   color: white;
   font-size: 16px;
 }
-.btn_confirm {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  background-color: red;
-}
+
 div img {
   position: relative;
   left: -10px;
