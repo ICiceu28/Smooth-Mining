@@ -29,7 +29,6 @@ body {
   line-height: 1.80857;
   font-weight: normal;
   background-color: black;
-  background-size: ;
   background-repeat: repeat;
   background-image: url(/images/pattern.png);
 }
@@ -539,17 +538,6 @@ menu section
   font-size: 16px;
   line-height: 28px;
   transition: ease-in all 0.5s;
-}
-
-#wa_hover:hover.wallet_box {
-  
-  /* background: #face34;
-  transition: ease-in all 0.5s; */
-}
-
-#wa_hover:hover i img {
-  /* filter: invert();
-  transition: ease-in all 0.5s; */
 }
 
 #wa_hover:hover.wallet_box h3 {
